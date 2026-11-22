@@ -17,7 +17,7 @@ modbus-sim/
 │   ├── Makefile              ネイティブ / クロスビルド用
 │   └── modbus_sim.c          本体
 └── files/
-    ├── config.yaml           サンプル設定: CLOU 実機のレジスタ定義 (/etc/modbus-sim/config.yaml)
+    ├── config.yaml           サンプル設定: 実機のレジスタ定義 (/etc/modbus-sim/config.yaml)
     ├── modbus-sim.config     UCI 設定 (/etc/config/modbus-sim)
     └── modbus-sim.init       procd init スクリプト (/etc/init.d/modbus-sim)
 dist/                         ビルド済み成果物 (mipsel_24kc)
