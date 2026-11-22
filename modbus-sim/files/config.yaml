@@ -1,0 +1,12 @@
+# Modbus slave simulator config (same format as the Python version).
+# Replace with your own file, e.g. clou_config.yml:
+#   scp clou_config.yml root@<router>:/etc/modbus-sim/config.yaml
+#   /etc/init.d/modbus-sim restart
+
+slaves:
+  1:
+    holding_registers:
+      0x0000: 100
+      0x0001: 200
+    input_registers:
+      0x0002: 1234
